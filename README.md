@@ -1,16 +1,31 @@
-# React + Vite
+# SmartNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartNest is a Smart Hostel Management Platform built using the MERN-style stack approach with:
 
-Currently, two official plugins are available:
+- Frontend: React + Tailwind CSS + Vite
+- Backend: Node.js + Express
+- Database: SQLite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Role-based login for Admin, Warden, and Student
+- Student management
+- Room management and allotment
+- Fee tracking and payment history
+- Complaints management
+- Leave request and approval
+- Notices management
+- Food menu management
+- Notification system
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
 
-## Expanding the ESLint configuration
+- `src/` - frontend source code
+- `backend/` - backend API and SQLite logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+### Frontend
+```bash
+npm install
+npm run dev
