@@ -54,7 +54,7 @@ const LeaveManagementPage = () => {
                 </div>
 
                 <select
-                  className="input max-w-[180px]"
+                  className="input max-w-45"
                   value={item.status}
                   onChange={(e) => handleStatusChange(item.id, e.target.value)}
                 >
